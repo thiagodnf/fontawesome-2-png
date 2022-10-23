@@ -10,7 +10,7 @@ function IndexPage({ icons }) {
     };
 
     let iconsAsImg = icons.map((el, i) => {
-        return <img className='mx-2 mb-2 icons' key={i} src={el} width="32px" />;
+        return <img className='mx-2 mb-2 icons' key={i} src={el.replace("/", "")} width="32px" />;
     });
 
     return (
