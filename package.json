@@ -7,7 +7,8 @@
         "dev": "next dev",
         "lint": "npx eslint .",
         "lint-fix": "npx eslint . --fix",
-        "update-dependencies": "ncu -u"
+        "update-dependencies": "ncu -u",
+        "export": "next build && next export -o docs/"
     },
     "keywords": [
         "convert",
